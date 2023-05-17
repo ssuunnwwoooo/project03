@@ -1,0 +1,136 @@
+body {
+    height: 3000px;
+}
+
+.top_bar {
+    padding: 7px;
+    background: rgb(31, 31, 31);
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
+.top_bar .inner .slogan {
+    text-align: center;
+    color: #ffffff;
+}
+
+.top_bar .inner .customer {
+    margin: 60px;
+    float: right;
+}
+
+.top_bar .inner .customer li {
+    float: left;
+    padding: 0 20px;
+    border-right: 1px solid #dddddd81;
+}
+
+ul>li:first-child {
+    color: red;
+}
+
+ul>li:last-child {
+    color: red;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#header .logo-Area a {
+    display: block;
+    height: 100%;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 14px;
+    text-transform: uppercase;
+}
+
+
+.bg00 {
+    background-image: url(../images/p_main_001.jpg);
+    height: 1230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.itm {
+    height: 1230px;
+}
+
+.itm01 {
+    background: url(../images/p_main_002.jpg)no-repeat center center/cover;
+    ;
+}
+
+.itm02 {
+    background: url(../images/p_main_003.jpg)no-repeat center center/cover;
+    ;
+}
+
+.itm03 {
+    background: url(../images/p_main_004.jpg)no-repeat center center/cover;
+    ;
+}
+
+#mainVisual .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+
+    background: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#mainVisual .slick-prev {
+    margin: 0 0 0 -700px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+#mainVisual .slick-next {
+    margin: 0 0 0 700px;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+#mainVisual .slick-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#mainVisual .slick-dots>* {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+#mainVisual .slick-dots button {
+    background: tomato;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+#mainVisual .slick-dots li.slick-active button {
+    background: #333;
+}
